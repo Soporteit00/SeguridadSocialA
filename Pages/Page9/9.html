@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Edu+TAS+Beginner:wght@500&family=Playpen+Sans&
+    family=Tilt    +Neon&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./9.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Seguridad Social</title>
+</head>
+<body>
+
+    <div class="menu">
+        <nav>
+          <a href="#">Seguridad Social</a>
+        </nav>
+      </div>    
+
+      <div class="container">
+
+        <div class="row">
+
+            <h2><br>NOVEDADES DE SEGURIDAD SOCIAL (Estas novedades son gestionadas por el área de Seguridad Social, con la ayuda de las agencias)</h2>
+
+            <div class="col">
+
+              <swiper-container style="--swiper-navigation-color: #000000; --swiper-pagination-color:#000000," class="mySwiper"
+              thumbs-swiper=".mySwiper2" loop="true" space-between="8"  >
+              <swiper-slide>
+                <h2>NOVEDADES SS</h2>
+                <p>Las novedades de seguridad social las reportan las agencias a través del formato <b>"F-PP-SS-07 REPORTE DE NOVEDADES O SOLICITUDES"</b> Debe estar firmado y huellado por el afiliado y deberán subirlo al Planner de SS donde se llevará seguimiento dependiendo el caso. <br><b>El área de SS,</b>es quien gestiona y aplica las novedades.</p>
+              </swiper-slide>
+              <swiper-slide>
+                <h3>1. Cambios IBC</h3>
+                <p>Se presenta cuando el afiliado quiere aumentar o disminuir su base de cotización. Se marca con x esta novedad en el formato y se indica el nuevo IBC.</p>
+              </swiper-slide>
+              <swiper-slide>
+                <h3>2. Inclusión ARL</h3>
+                <p>Se presenta cuando el afiliado no tiene este servicio y lo solicita adicional a los demás. <br> En el formato se agrega la clase de riesgo  y la actividad económica que realiza el independiente. Se adjunta el formato de identificación de peligros independientes</p>
+              </swiper-slide>
+              <swiper-slide>
+                <h3>3. Inclusión CCF</h3>
+                <p>Se presenta cuando el afiliado desea agregar este servicioa su cotización. <br> En el formato se coloca en nombre de CCF a la que se le va afiliar, incluyendo todos los documentos necesarios.</p>
+              </swiper-slide>
+              <swiper-slide>
+                <h3>4. Traslados EPS</h3>
+                <p>Se indica a cual EPS se desea trasladar y se deben adjuntar los documentos del afiliado y de los beneficiarios que van a incluir en el núcleo familiar; para esto es necesario adjuntar el contrato de asociación.</p>
+              </swiper-slide>
+              <swiper-slide>
+               <h3>5. Cambio de riesgo en ARL</h3>
+               <p>Si el independiente cambia de actividad económica es posible que su riesgo cambie, en el formato se diligencia que clase de riesgo y cual es el nuevo cargo.</p>
+              </swiper-slide>
+              <swiper-slide>
+                <h3>6. Inclusión beneficiarios</h3>
+                <p>Se señala la cantidad de beneficiarios y se adjuntan los documentos a incluir en el grupo familiar.</p>
+              </swiper-slide>
+              <swiper-slide id="boton">
+                <h3>7. Retiro deinitivo</h3>
+                <p>En el formato indica el motivo por el cual el independiente se va a retirar y en observaciones diligencia la retención que le realizó.</p>
+              </swiper-slide>
+            </swiper-container>
+    
+            </div>
+
+            <h4 class="bi bi-exclamation-octagon-fill">Desliza las tarjetas hacia la izquierda para leer la información</h4>
+
+        </div>
+
+      </div>
+
+      <div class="botones">
+        <a href="../Page8/8.html" class="left bi bi-caret-left-fill"></a>
+
+        <a href="../Page10/10.html" >
+          <button  class="right bi bi-caret-right-fill" id="avanzarBtn" disabled></button>
+        </a>
+
+
+      </div>
+    
+      <div class="footer">
+        <nav></nav>
+    </div>      
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./9.js"></script>
+
+</body>
+</html>

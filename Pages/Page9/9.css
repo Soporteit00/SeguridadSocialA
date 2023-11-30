@@ -1,0 +1,146 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 89%;
+	height: 30px;
+	background-color: #0A2D72;
+	border-radius: 25px;
+	font-size: 0;
+
+}
+
+nav a {
+	line-height: 36px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 25px;
+    margin-left: 40%;
+    font-family: 'Acme', sans-serif;
+}
+
+.footer{
+    margin-top:15.8%;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+h2{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+
+h3{
+    font-family: 'Acme', sans-serif;
+
+    text-align: center;
+  }
+
+  h4{
+    font-family: 'Acme', sans-serif;
+    text-align: center; 
+    font-size: 21px;
+    color: #000;
+  }
+
+
+p{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 22px;
+    background-color: #f9b515;
+  }
+
+
+.botones{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.left{
+  font-size: 50px;
+  margin-right: 85%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+.right{
+  font-size: 50px;
+  margin-left: 40%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  border: #fff;
+  border-radius: 60%;
+}
+
+.right:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+.left:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+swiper-container {
+  width:95%;
+  height: 100%;  
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  margin-top: 1%;
+  align-items: center;
+}
+
+swiper-slide img {
+  width:300px;
+  height: 90%;
+  object-fit: cover;
+}
+
+swiper-container {
+  width: 90%;
+  height: 100px;
+}
+
+.mySwiper {
+  height:100%;
+  width: 70%;
+}
+.mySwiper2 {
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.mySwiper2 swiper-slide {
+  width: 80%;
+  height: 95%;
+  opacity: 0.4;
+}
+
+.mySwiper2 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+swiper-slide img {
+  width:200px;
+  height: 30%;
+}

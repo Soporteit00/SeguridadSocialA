@@ -1,0 +1,87 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 89%;
+	height: 30px;
+	background-color: #0A2D72;
+	border-radius: 25px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 36px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 25px;
+    margin-left: 40%;
+    font-family: 'Acme', sans-serif;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+.logo{
+    width: 470px;
+    margin-left: 15%;
+}
+
+.Img{
+	width: 600px;
+}
+
+button {
+	--color: #0A2D72;
+    font-family: 'Acme', sans-serif;
+	display: inline-block;
+	width: 8em;
+	height: 2.6em;
+	line-height: 2.5em;
+	margin: 20px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid var(--color);
+	transition: color .5s;
+	z-index: 1;
+    font-size: 19px;
+	border-radius: 10px;
+	font-weight: 500;
+	color: var(--color);
+   }
+   
+   button:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 150px;
+	width: 200px;
+	border-radius: 50%;
+   }
+   
+   button:hover {
+	color: #fff;
+   }
+   
+   button:before {
+	top: 100%;
+	left: 100%;
+	transition: all .7s;
+   }
+   
+   button:hover:before {
+	top: -30px;
+	left: -30px;
+   }
+   
+   button:active:before {
+	background: #0A2D72;
+	transition: background 0s;
+   }
